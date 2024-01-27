@@ -6,6 +6,7 @@ const OurTeachers = () => {
         <div>
             <SharedBanner heading="Our Teachers" passage="Our Teachers" />
             <div className="pt-8 md:pt-20 px-4 lg:px-6 2xl:px-0"><SharedHeading  heading="Our Teachers"/></div>
+            {/* looo */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 2xl:px-0 md:gap-8 lg:gap-12 max-w-screen-xl mx-auto py-12">
                 <img className="rounded-lg" src="https://i.ibb.co/Y0Wk4vX/Salman-Poster.jpg" alt="" />
                 <img className="rounded-lg" src="https://i.ibb.co/6wM1FFL/Tanvir-Poster.jpg" alt="" />
