@@ -7,6 +7,7 @@ import Login from "../shared/Login/Login";
 import Register from "../shared/Register/Register";
 import FounderMessage from "../pages/Founder/FounderMessage";
 import OurTeachers from "../pages/About/OurTeachers";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path : "/whoWeAre",
                 element : <About />
+            },
+            {
+                path : "/contactUs",
+                element : <ContactUs />
             },
             {
                 path : "/ourTeachers",

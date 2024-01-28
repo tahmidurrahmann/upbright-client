@@ -76,7 +76,7 @@ const Footer = () => {
                                     </li>
 
                                     <li>
-                                        <NavLink className="text-gray-700 transition hover:text-gray-700/75" to="/ourTeam">Our Team</NavLink>
+                                        <NavLink className="text-gray-700 transition hover:text-gray-700/75" to="/ourTeachers">Our Teachers</NavLink>
                                     </li>
                                 </ul>
                             </div>
